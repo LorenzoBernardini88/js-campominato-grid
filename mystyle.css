@@ -17,6 +17,10 @@ main{
 }
 
 /* proprietà casella */
+/* #ms_griglia{
+    width: 45%;
+    border: solid 1px blue;
+}  */
 
 .casella{
     height: 50px !important;
@@ -28,5 +32,9 @@ main{
 }
 .color{
     background-color: darkgreen;
+    color: white;
+}
+.casella:hover{
+    cursor: pointer;
 }
 
