@@ -11,6 +11,16 @@ button.addEventListener("click", function(){
             griglia.innerHTML += `<div class="casella">${i}</div>`;
         }
 
+    }else if(scelta == 2) {
+        for(i=1; i<=81; i++){
+            griglia.innerHTML += `<div class="casella">${i}</div>`;
+        }
+    
+    }else {
+        
+        for(i=1; i<=49; i++){
+            griglia.innerHTML += `<div class="casella">${i}</div>`;
+        }
     }
 
 
