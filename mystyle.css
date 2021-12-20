@@ -12,26 +12,35 @@ footer{
     background-color: white;
     padding: 10px 0px;
 }
+footer{
+    position: fixed;
+    bottom: 0;
+}
 main{
+    margin-top: 100px;
+    text-align: center;
     min-height: 500px;
 }
+main img{
+    width: 400px;
+}
+.hidden{
+    display: none;
+}
+
 
 /* proprietà casella */
-/* #ms_griglia{
-    width: 45%;
-    border: solid 1px blue;
-}  */
 
 .casella{
     height: 50px !important;
     width: 50px !important;
-    border: solid 1px blue;
+    border: solid 1px black;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .color{
-    background-color: darkgreen;
+    background-color:mediumpurple;
     color: white;
 }
 .casella:hover{
