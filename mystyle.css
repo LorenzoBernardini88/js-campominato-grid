@@ -7,7 +7,11 @@
 body{
     background-color: aquamarine;
 }
-header{
+header,
+footer{
     background-color: white;
     padding: 10px 0px;
+}
+main{
+    min-height: 500px;
 }
