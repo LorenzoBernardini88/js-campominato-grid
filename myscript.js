@@ -11,16 +11,25 @@ button.addEventListener("click", function(){
     if(scelta == 1){
         
         for(i=1; i<=100; i++){
+
+            griglia.classList.remove('container');
+            griglia.classList.add('ms_container1');
             griglia.innerHTML += `<div class="casella">${i}</div>`;
         }
     }else if(scelta == 2) {
         
         for(i=1; i<=81; i++){
+
+            griglia.classList.remove('container');
+            griglia.classList.add('ms_container2');
             griglia.innerHTML += `<div class="casella">${i}</div>`;
         }
     }else {
         
         for(i=1; i<=49; i++){
+            
+            griglia.classList.remove('container');
+            griglia.classList.add('ms_container3');
             griglia.innerHTML += `<div class="casella">${i}</div>`;
         }
     }

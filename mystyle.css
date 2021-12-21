@@ -10,14 +10,17 @@ body{
 header,
 footer{
     background-color: white;
-    padding: 10px 0px;
+    padding: 5px 0px;
 }
 footer{
     position: fixed;
     bottom: 0;
 }
 main{
-    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
     text-align: center;
     min-height: 500px;
 }
@@ -28,12 +31,30 @@ main img{
     display: none;
 }
 
-
+/* proprietà contenitore in base alla scelta della select option */
+.ms_container1{
+    height: 502px;
+    width: 502px;
+}
+.ms_container2{
+    height: 452px;
+    width: 452px;
+}
+.ms_container3{
+    height: 352px;
+    width: 352px;
+}
+.ms_container1,
+.ms_container2,
+.ms_container3{
+    text-align: center;
+    border: solid 1px black;
+}
 /* proprietà casella */
-
 .casella{
-    height: 50px !important;
-    width: 50px !important;
+    margin: 0 !important;
+    height: 50px;
+    width: 50px;
     border: solid 1px black;
     display: flex;
     justify-content: center;
@@ -46,4 +67,5 @@ main img{
 .casella:hover{
     cursor: pointer;
 }
+
 
